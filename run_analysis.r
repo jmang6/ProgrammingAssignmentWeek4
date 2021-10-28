@@ -51,3 +51,6 @@ colnames(allsets) <- gsub("std", "Standard Deviation", colnames(allsets))
 
 finaltidydata <- allsets
 finaltidydata <- aggregate(finaltidydata[,3:81], finaltidydata[,1:2], FUN = mean)
+
+# 6 Saving the data set.
+save(finaltidydata, file = "finaltidydata.RData")
