@@ -28,6 +28,7 @@ The code, which is saved as "run_analysis.R" in the repository, does the followi
 7. Saving the data set.
 - The final tidy dataset is saved as a .RData
 - Must be opened with RStudio
+- A separate .txt file was saved for the purposes of this assignment.
 
 ## The Data ##
 
