@@ -24,3 +24,13 @@ The code, which is saved as "run_analysis.R" in the repository, does the followi
 
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - From the initially created dataset, create a new final tidy dataset with the mean determined for each variable by "Subject" and "Activity"
+
+## The Data ##
+
+The data from the .zip files that are used in the above script are as follows:
+- x_train
+- y_train
+- subject_train
+- x_test
+- y_test
+- subject_test
