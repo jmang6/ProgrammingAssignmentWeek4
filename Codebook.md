@@ -27,10 +27,16 @@ The code, which is saved as "run_analysis.R" in the repository, does the followi
 
 ## The Data ##
 
-The data from the .zip files that are used in the above script are as follows:
-- x_train
-- y_train
-- subject_train
-- x_test
-- y_test
-- subject_test
+The data from the .zip files that are used in the above script create the datasets used to create the final tidy data set:
+- x_train.txt -> x_train
+- y_train.txt -> y_train
+- subject_train.txt -> subject_train
+- x_test.txt -> x_test
+- y_test.txt -> y_test
+- subject_test.txt -> subject_test
+- activity_labels.txt -> activity_labels
+- features.txt -> features
+
+testsets contains subject_test, x_test, y_test <br />
+trainsets contains subject_train, x_train, y_train <br />
+allsets contains testsets and trainsets
